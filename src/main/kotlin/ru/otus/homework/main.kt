@@ -1,7 +1,7 @@
 package ru.otus.homework
 
 fun main() {
-    println(sumOrThrow(-3, -1)) // IllegalArgumentException: Only positive numbers are allowed
+    println(sumOrThrow(-7, -1)) // IllegalArgumentException: Only positive numbers are allowed
     println(sumOrThrow(Int.MAX_VALUE, Int.MAX_VALUE)) // IllegalStateException: Sum overflow
 }
 
